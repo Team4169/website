@@ -1,4 +1,4 @@
-# Warrior Roboticsc Website
+# Warrior Robotics Website
 
 Warrior Robotics website created during the 2020 season
 
