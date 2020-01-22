@@ -1,17 +1,20 @@
 {
-  "hosting": {
-    "site": "lsrobotics",
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
+    "hosting": {
+        "site": "lsrobotics",
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "rewrites": [{
+                "source": "**",
+                "destination": "/index.html"
+            },
+            {
+                "source": "/favicon.ico",
+                "destination": "/favicon.ico"
+            }
+        ]
+    }
 }
