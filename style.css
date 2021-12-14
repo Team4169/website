@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EEE;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 10vw;
+    line-height: 50px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #EEE;
+    font-size: 13vh;
+    margin-top: 0;
+    padding-top: 5vh;
+    margin-bottom: 4vh;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: none
+}
+
+td {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
+tr {
+    transition: all .25s ease-in;
+}
+
+tr:hover {
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65vh;
+}
+
+.header {
+    background-image: url("team.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
