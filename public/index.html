@@ -7,11 +7,39 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <!-- Firebase + analytics -->
-        <script src="/__/firebase/7.6.2/firebase-app.js"></script>
-        <script src="/__/firebase/7.6.2/firebase-analytics.js"></script>
-        <script src="/__/firebase/init.js"></script>
+        
+        <script defer src="/__/firebase/9.5.0/firebase-app-compat.js"></script>
+        <script defer src="/__/firebase/9.5.0/firebase-auth-compat.js"></script>
+        <script defer src="/__/firebase/9.5.0/firebase-database-compat.js"></script>
+        <script defer src="/__/firebase/9.5.0/firebase-firestore-compat.js"></script>
+        <script defer src="/__/firebase/9.5.0/firebase-functions-compat.js"></script>
+        <script defer src="/__/firebase/9.5.0/firebase-messaging-compat.js"></script>
+        <script defer src="/__/firebase/9.5.0/firebase-storage-compat.js"></script>
+        <script defer src="/__/firebase/9.5.0/firebase-analytics-compat.js"></script>
+        <script defer src="/__/firebase/9.5.0/firebase-remote-config-compat.js"></script>
+        <script defer src="/__/firebase/9.5.0/firebase-performance-compat.js"></script>
+        <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+            
+            const firebaseConfig = {
+              apiKey: "AIzaSyCSihUVWWuoNyPV8gnChqgx0-2XKfgFuMg",
+              authDomain: "warrior-robotics-site.firebaseapp.com",
+              databaseURL: "https://warrior-robotics-site.firebaseio.com",
+              projectId: "warrior-robotics-site",
+              storageBucket: "warrior-robotics-site.appspot.com",
+              messagingSenderId: "217444282015",
+              appId: "1:217444282015:web:90bc152261b33c020cbcaa",
+              measurementId: "G-F2JM01KFM8"
+            };
+            
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
+
+        <!--
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156076028-1"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
@@ -20,7 +48,7 @@
 
           gtag('config', 'UA-156076028-1');
         </script>
-
+        -->
     </head>
     <body>
         <div class="header">

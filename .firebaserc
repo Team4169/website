@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "warrior-robotics-site"
+  },
+  "targets": {
+    "warrior-robotics-site": {
+      "hosting": {
+        "lsrobotics": [
+          "lsrobotics"
+        ]
+      }
+    }
+  }
+}
