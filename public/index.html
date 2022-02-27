@@ -19,20 +19,19 @@
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
     <script type="module">
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
       
       const firebaseConfig = {
-        apiKey: "AIzaSyCSihUVWWuoNyPV8gnChqgx0-2XKfgFuMg",
-        authDomain: "warrior-robotics-site.firebaseapp.com",
-        databaseURL: "https://warrior-robotics-site.firebaseio.com",
-        projectId: "warrior-robotics-site",
-        storageBucket: "warrior-robotics-site.appspot.com",
-        messagingSenderId: "217444282015",
-        appId: "1:217444282015:web:90bc152261b33c020cbcaa",
-        measurementId: "G-F2JM01KFM8"
+        apiKey: "AIzaSyBMNsMjNQAtZEe1on_3nNF_9q7C8L8M6BY",
+        authDomain: "warriorrobotics.firebaseapp.com",
+        projectId: "warriorrobotics",
+        storageBucket: "warriorrobotics.appspot.com",
+        messagingSenderId: "915367328296",
+        appId: "1:915367328296:web:5ecf39644848d3db19d31d",
+        measurementId: "G-GL31YHDXR9"
       };
-      
+
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
     </script>
