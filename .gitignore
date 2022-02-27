@@ -2,3 +2,4 @@
 /.github
 /.firebase
 /build
+package-lock.json
