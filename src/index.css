@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 body {
     padding: 0;
     margin: 0;
@@ -52,11 +53,12 @@ tr:hover {
 
 td:first-child,
 th:first-child {
-  border-radius: 10px 0 0 10px;
+    border-radius: 10px 0 0 10px;
 }
+
 td:last-child,
 th:last-child {
-  border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0;
 }
 
 .logo {
@@ -67,8 +69,18 @@ th:last-child {
 }
 
 .header {
-    background-image: url("team.jpg");
+    background-image: url("teamblured.jpg");
     background-position: center;
     background-size: cover;
+
     height: 100vh;
+}
+
+.title {
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
 }
