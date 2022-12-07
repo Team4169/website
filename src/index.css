@@ -84,3 +84,25 @@ th:last-child {
         1px 1px 0 #000;
 
 }
+
+.sponsorscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sponsor {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .sponsorimage {
+    margin: 10px;
+    width: 180px;
+    height: fit-content;
+  }
+  

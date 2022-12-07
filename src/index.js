@@ -2,6 +2,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import logo from './logo.png'
 
+import codeninja from "./sponsorimages/codeninja.png"
+import dsdlabs from "./sponsorimages/dsdlabs.png"
+import mooyah from "./sponsorimages/mooyah.png"
+import raytheon from "./sponsorimages/raytheon.png"
+
 ReactDOM.render(
     <div>
         <div class="header">
@@ -46,5 +51,38 @@ ReactDOM.render(
         </table>
         <br />
         <br />
+        <h2>Sponsors</h2>
+        <br />
+
+        <div className="sponsorscontainer">
+            <div className="sponsor">
+                <img
+                  src={codeninja}
+                  alt="Code Ninja"
+                  className="sponsorimage"
+                />
+            </div>
+            <div className="sponsor">
+                <img
+                  src={dsdlabs}
+                  alt="DSD Laboratories"
+                  className="sponsorimage"
+                />
+            </div>
+            <div className="sponsor">
+                <img
+                  src={mooyah}
+                  alt="Mooyah"
+                  className="sponsorimage"
+                />
+            </div>
+            <div className="sponsor">
+                <img
+                  src={raytheon}
+                  alt="Raytheon"
+                  className="sponsorimage"
+                />
+            </div>
+        </div>
     </div>,
     document.getElementById('root'));
