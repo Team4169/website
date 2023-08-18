@@ -30,23 +30,23 @@ ReactDOM.render(
             </tr>
             <tr>
                 <td>Captain</td>
-                <td>Eron Leung</td>
-                <td>leunge23@lsrhs.net</td>
+                <td>Divya Senthurchelvan</td>
+                <td>senthurchelvand24@lsrhs.net</td>
             </tr>
             <tr>
                 <td>Captain</td>
-                <td>Nethan Madhav</td>
-                <td>madhavn23@lsrhs.net</td>
-            </tr>
-            <tr>
-                <td>Assistant Captain</td>
-                <td>Divya Senthurchelvan</td>
-                <td>senthurchelvand24@lsrhs.net</td>
+                <td>Asher Leavitt</td>
+                <td>leavitta24@lsrhs.net</td>
             </tr>
             <tr>
                 <td>Assistant Captain</td>
                 <td>Sean Mabli</td>
                 <td>mablis25@lsrhs.net</td>
+            </tr>
+            <tr>
+                <td>Assistant Captain</td>
+                <td>Arjun Goray</td>
+                <td>goray25@lsrhs.net</td>
             </tr>
         </table>
         <br />
